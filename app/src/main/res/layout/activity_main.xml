@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_input"
+        android:text="录入"
+        android:transitionName="input"
+        style="@style/tv_stytle_1" />
+    <TextView
+        android:id="@+id/tv_search"
+        android:text="查询"
+        android:transitionName="search"
+        android:background="@drawable/shape_bg_6ccbc2_circle"
+        style="@style/tv_stytle_1" />
+</LinearLayout>
